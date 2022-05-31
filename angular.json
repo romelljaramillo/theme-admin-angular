@@ -31,9 +31,22 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/@fortawesome/fontawesome-free/css/all.min.css",
+              "src/assets/css/style.css",
+              "src/assets/css/pages/dashboard4.css",
+              "src/assets/css/colors/default-dark.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+              "node_modules/@fortawesome/fontawesome-free/js/all.min.js",
+              "src/assets/js/perfect-scrollbar.jquery.min.js",
+              "src/assets/js/waves.js",
+              "src/assets/js/sidebarmenu.js",
+              "src/assets/js/custom.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -99,9 +112,14 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/@fortawesome/fontawesome-free/css/all.min.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+              "./node_modules/@fortawesome/fontawesome-free/js/all.min.js"
+            ]
           }
         }
       }
